@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Dashboard</h1>
+        </header>
+        <main>
+            <section id="search-section">
+                <h2>Search for a City:</h2>
+                <form id="city-form">
+                    <input type="text" id="city-input" placeholder="San Diego" required>
+                    <button type="submit">Search</button>
+                    <button id="clear-history" class="clear-btn hidden">Clear History</button>
+                    <div id="loading-spinner" class="hidden">
+                        <img src="assets/images/spinner.gif" alt="Loading...">
+                    </div>
+                </form>
+                <div id="search-history"></div>
+            </section>
+            <section id="weather-display">
+                <div id="current-weather"></div>
+                <div id="forecast"></div>
+            </section>
+        </main>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
