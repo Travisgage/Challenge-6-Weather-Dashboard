@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const currentWeather = document.getElementById('current-weather');
   const forecast = document.getElementById('forecast');
 
-  // Search history from local storage, empty array if none:
+  // Search history from local storage; empty array if none:
 
   let history = JSON.parse(localStorage.getItem('weatherSearchHistory')) || [];
 
