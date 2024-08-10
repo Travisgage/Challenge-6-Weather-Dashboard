@@ -10,7 +10,7 @@ N/A
 
 To use the application, navigate to the provided URL in your web browser. Please note that local storage is required to display previous searches.
 
-[Click here](https://note-taker-z0v0.onrender.com/) for deployed application
+[Click here](https://travisgage.github.io/Challenge-6-Weather-Dashboard/) for deployed application
 
 ## License
 
