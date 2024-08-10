@@ -1,0 +1,142 @@
+body {
+  font-family: monospace;
+  background-color: #f0f0f0;
+  color: #3e36d8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: #007bff;
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+  margin: -20px -20px 20px;
+}
+
+#search-section {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#city-input {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button[type="submit"],
+#clear-history {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#clear-history {
+  padding: 10px 20px;
+  border: none;
+  background-color: #000000; 
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#search-history {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+#search-history button {
+  padding: 10px;
+  border: none;
+  background-color: #ccc;
+  color: #3b3b3b;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+}
+
+#search-history button:hover {
+  background-color: #bbb;
+}
+
+#current-weather {
+  margin-bottom: 20px;
+}
+
+.weather-card {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.weather-card img {
+  width: 100px;
+  height: 100px;
+}
+
+#forecast {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-card {
+  background-color: #3b3b3b;
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 18%;
+  text-align: center;
+}
+
+.forecast-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.weather-card, .forecast-card {
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#loading-spinner {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#loading-spinner img {
+  width: 50px;
+  height: 50px;
+}
